@@ -14,7 +14,10 @@
     "react-icons": "^4.3.1",
     "react-scripts": "5.0.0",
     "react-tooltip": "^4.2.21",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "start": "sanity start",
+    "test": "sanity check",
+    "build": "sanity build public -y"
   },
   "scripts": {
     "start": "react-scripts start",
