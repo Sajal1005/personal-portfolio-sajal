@@ -71,6 +71,25 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--lightGray-color); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #728FCE; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 .p-text {
   font-size: 0.8rem;
   text-align: left;
