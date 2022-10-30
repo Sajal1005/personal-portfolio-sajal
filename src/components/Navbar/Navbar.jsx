@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <a href="#home"><h1 className="text-transparent bg-clip-text bg-gradient-to-r to-purple-600 from-sky-400 text-4xl uppercase tracking-[7px]">Sajal</h1></a>
+        <a href="#home"><h1 className="text-transparent bg-clip-text bg-gradient-to-r to-purple-600 from-sky-400 text-3xl uppercase tracking-[7px]">&lt;Sajal/&gt;</h1></a>
       </div>
       <ul className="app__navbar-links">
         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
